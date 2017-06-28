@@ -1,2 +1,3 @@
 # Spinner-EditText
 这个demo主要是将Edittext与spinner结合使用，方便查询，实现输入与滚动查询的替换
+要想让spinner不显示数据，就需要将item的宽度超过spinner的宽度，然后还要设置属性（LinearLayout中的android:orientation="vertical"，与TextView的gravity）
